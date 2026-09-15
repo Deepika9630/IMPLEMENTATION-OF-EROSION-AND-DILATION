@@ -1,3 +1,4 @@
+
 # IMPLEMENTATION-OF-EROSION-AND-DILATION
 
 ### Aim
@@ -85,7 +86,7 @@ display_img(img)
 ```
 
 
-
+<img width="1347" height="802" alt="Screenshot 2026-09-15 082636" src="https://github.com/user-attachments/assets/f54f436b-bc7e-4672-bbba-947e0bbe4838" />
 
 
 
@@ -109,6 +110,7 @@ eroded_img = cv2.erode(img, kernel, iterations=3)
 ```
 display_img(eroded_img)
 ```
+<img width="1212" height="807" alt="Screenshot 2026-09-15 082754" src="https://github.com/user-attachments/assets/1fb07ef9-2b27-4dfe-9518-c39c6fc14ebf" />
 
 
 
@@ -141,6 +143,8 @@ dilated_img = cv2.dilate(img, kernel, iterations=8)
 ```
 display_img(dilated_img)
 ```
+
+<img width="1312" height="807" alt="image" src="https://github.com/user-attachments/assets/1705780c-e576-4b6b-bb26-c65a30b6428e" />
 
 
 
